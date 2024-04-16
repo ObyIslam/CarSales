@@ -95,6 +95,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "carsales-nosql1:build:production",
+              "serveTarget": "carsales-nosql1:serve:production"
+            },
+            "development": {
+              "buildTarget": "carsales-nosql1:build:development",
+              "serveTarget": "carsales-nosql1:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

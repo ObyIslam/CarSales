@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "carsalesca3-dcfa8": {
+      "hosting": {
+        "carsales-nosql1": [
+          "carsalesca3-dcfa8"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "carsalesca3-dcfa8"
+  }
+}

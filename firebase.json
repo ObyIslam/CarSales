@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "carsales-nosql1",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

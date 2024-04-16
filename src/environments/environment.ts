@@ -1,3 +1,3 @@
 export const environment = {
-    apiURL:"http://express-api-ca3.web.app:5050/cars/"
+    apiURL:"http://http://52.48.144.116:5050/cars"
 };
